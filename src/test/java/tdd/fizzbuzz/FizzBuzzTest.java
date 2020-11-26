@@ -60,4 +60,12 @@ public class FizzBuzzTest {
         assertEquals("BuzzWhizz",actual);
     }
 
+    @Test
+    public void should_return_order_FizzBuzzWhizz_when_countOff_given_multiple_of_3_and_5_and_7_order() throws Exception {
+        int order = 105;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String actual = fizzBuzz.countOff(order);
+        assertEquals("FizzBuzzWhizz",actual);
+    }
+
 }
