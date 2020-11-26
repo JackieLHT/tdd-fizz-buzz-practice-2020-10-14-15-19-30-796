@@ -17,7 +17,7 @@ public class FizzBuzzTest {
         int order = 3;
         FizzBuzz fizzBuzz = new FizzBuzz();
         String actual = fizzBuzz.countOff(order);
-        assertEquals("3",actual);
+        assertEquals("Fizz",actual);
     }
 
 }
