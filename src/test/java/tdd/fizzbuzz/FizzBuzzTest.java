@@ -12,4 +12,12 @@ public class FizzBuzzTest {
         assertEquals("1",actual);
     }
 
+    @Test
+    public void should_return_order_fizz_when_countOff_given_multiple_of_3_order() throws Exception {
+        int order = 3;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String actual = fizzBuzz.countOff(order);
+        assertEquals("3",actual);
+    }
+
 }
