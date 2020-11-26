@@ -28,6 +28,14 @@ public class FizzBuzzTest {
         assertEquals("Buzz",actual);
     }
 
+    @Test
+    public void should_return_order_whizz_when_countOff_given_multiple_of_7_order() throws Exception {
+        int order = 7;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String actual = fizzBuzz.countOff(order);
+        assertEquals("Whizz",actual);
+    }
+
     public void should_return_order_fizzbuzz_when_countOff_given_multiple_of_5_order() throws Exception {
         int order = 15;
         FizzBuzz fizzBuzz = new FizzBuzz();
